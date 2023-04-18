@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+// FONT
+// @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@font-face {
+    font-family: Garamond;
+    src: url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+}
+
+// VARIABLES
+
+$color_principal: #f3f4f6;
+$color_secundario: #111827;
+$color_terceario: #1f2937;
+$color_letra_1: #ffffff;
+$color_letra_2: #c9cdd4;
+$color_letra_3: #6b7280;
+
+
+// GLobal styles
+
+.table-countries{
+    height: 450px;
+    padding: 32px;
+}

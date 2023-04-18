@@ -1,0 +1,9 @@
+<div class="flex items-center justify-center h-full w-12">
+    <i class="icon-search bx bx-search w-12 pl-3" for="inputSearch"></i>
+</div>
+<input  type="text" 
+        (keyup.enter)="bring()" 
+        [formControl]="inputCountries"
+        class="real-input w-full outline-none" 
+        #inputSearch 
+        placeholder="Search">

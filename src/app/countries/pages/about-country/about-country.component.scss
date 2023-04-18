@@ -1,0 +1,48 @@
+@import '../../../../styles.scss';
+
+.about-background{
+    background-color: $color_principal;
+    width: 100%;
+    height: 640px;
+    border-radius: 0px 7px 7px 0px;
+
+    .about-box{
+        height: 580px;
+        margin: 40px;
+        background-color: white;
+        border-radius: 7px;
+        text-align: center;
+    }
+}
+
+.about-img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-country-img{
+    height: 200px;
+    width: 293px;
+}
+
+.about-fonts{
+    font-size: 37px;
+    font-weight: 800;
+}
+
+.about-info-li{
+
+    text-align: start;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.about-button{
+    width: 150px;
+    background-color: $color_principal;
+    height: 60px;
+    border-radius: 31px;
+    font-weight: 700;
+    font-size: 17px;
+}

@@ -1,0 +1,74 @@
+@import '../../../styles.scss';
+
+.sidenav{
+    height: 640px;
+    min-height: 640px;
+    background-color: $color_terceario;
+
+    .title-sidenav{
+        background-color: $color_secundario;
+        color: $color_letra_2;
+
+        h2{
+            font-size: 20px;
+        }
+    }
+
+}
+
+.list-sidenav{
+
+    color: $color_letra_2;
+    font-size: 16px;
+    margin: 10px;
+    
+    .li-sidenav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 48px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        cursor: pointer;
+        
+        i{
+            padding-top: 3px;
+            font-size: 21px;
+        }
+
+    }
+    
+}
+
+.li-sidenav:hover{
+    background-color: $color_secundario;
+    transition: all, 300ms;
+}
+
+.active{
+    background-color: $color_secundario;
+}
+
+
+
+// Responsive 
+
+@media (max-width: 1126px) {
+
+    .title-sidenav{
+        h2{
+            font-size: 19px !important;
+        }
+    }
+
+    .li-sidenav{
+        display: flex;
+        height: 61px !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    
+}

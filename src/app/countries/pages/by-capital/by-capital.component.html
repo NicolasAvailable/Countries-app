@@ -1,0 +1,23 @@
+
+
+<!-- TODO: enlazar el icono con el input   -->
+<div class=" rows-span-2 flex h-16 bg-white">
+    <app-input (countries)="receiveCapital($event)" class="input-countries flex w-full"></app-input>
+</div>
+    
+<div class="dashboard rows-span-10 h-full">
+
+    <div class="grid grid-rows-8">
+
+        <div class="title-dashboard rows-span-2 grid content-center">
+            <h2 class="pl-8 pt-8">Capital</h2>
+        </div>
+        
+        <div class="table-countries rows-span-6">
+            <app-table *ngIf="!showError && !loading" [countriesToShow]="capitalReceived" ></app-table>
+            <app-didnt-find *ngIf="showError" ></app-didnt-find>
+            <app-loading-logo *ngIf="loading"></app-loading-logo>
+        </div>
+
+    </div>
+</div>
