@@ -1,9 +1,12 @@
-<div class="flex items-center justify-center h-full w-12">
-    <i class="icon-search bx bx-search w-12 pl-3" for="inputSearch"></i>
+
+<div (click)="bring()" class="flex items-center justify-center h-full w-12 cursor-pointer">
+    <i class="icon-search bx bx-search w-12 pl-3  hover:text-sky-800" for="inputSearch"></i>
 </div>
-<input  type="text" 
-        (keyup.enter)="bring()" 
-        [formControl]="inputCountries"
-        class="real-input w-full outline-none" 
-        #inputSearch 
-        placeholder="Search">
+<form [formGroup]="inputCountries" class="flex w-full">
+    <input  type="text" 
+            formControlName="country"
+            (keyup.enter)="bring()"
+            class="real-input w-full outline-none" 
+            #inputSearch 
+            placeholder="Search">
+</form>

@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 import { CountryREST } from '../../interfaces/countries.interface';
 
 import { CountriesService } from '../../services/countries.service';
@@ -13,12 +13,14 @@ export class InputComponent implements OnInit {
   
   @Output() countries: EventEmitter<string> = new EventEmitter();
 
-  inputCountries: FormControl = new FormControl('');
+  inputCountries: FormGroup = new FormGroup({
+    country: new FormControl('')
+  });
 
 
   bring(){
 
-    const CountriesName = this.inputCountries.value
+    const CountriesName = this.inputCountries.get('country')?.value
   
     this.countries.emit( CountriesName )
   }

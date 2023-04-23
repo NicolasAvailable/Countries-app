@@ -11,7 +11,7 @@
             <td class="table-title"> <img [src]="country.flags.png" [alt]="country.flags.alt"> </td>
             <td class="table-title"> {{country.name.common}} </td>
             <td class="table-title hidden"> {{country.capital}} </td>
-            <td class="table-title"> {{country.population}} </td>
+            <td class="table-title"> {{country.population | number}} </td>
             <td class="table-title font-semibold"> <a [routerLink]="['/countries', country.cca2]">more...</a> </td>
         </tr>
     </tbody>

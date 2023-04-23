@@ -23,13 +23,6 @@
     }
 }
 
-.table-countries{
-    height: 450px;
-
-    
-}
-
-
 .didnt-find{
     display: flex;
     justify-content: center;
@@ -52,5 +45,9 @@
 
     .just-responsive{
         height: 48px !important;
+    }
+
+    .table-countries{
+        padding: 20px;
     }
 }

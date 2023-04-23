@@ -91,8 +91,8 @@
     }
 
     .about-info{
-        margin-left: 7px;
-        margin-right: 7px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
 
     .about-info-li{
@@ -110,12 +110,17 @@
 
 @media (max-width: 433px) {
 
+    .about-box{
+        margin: 18px;
+    }
+
     .about-fonts {
         font-size: 19px;
     }
 
     .about-country-img{
-        height: 115px;
+        margin-left: 7px;
+        height: 97px;
         width: 120px;
     }
 
@@ -136,10 +141,3 @@
 }
 
 
-@media (max-width: 390px) {
-    .about-country-img{
-        margin-top: 48px;
-        height: 113px;
-        width: 114px;
-    }
-}
