@@ -24,3 +24,23 @@
 }
 
 
+
+// RESPONSIVE
+
+
+@media (max-width: 520px) {
+    h2{
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width: 435px) {
+
+    h2{
+        font-size: 22px !important;
+    }
+
+    .just-responsive{
+        height: 48px !important;
+    }
+}

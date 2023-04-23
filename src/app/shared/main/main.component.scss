@@ -12,3 +12,18 @@
     width: 115px;
     border-radius: 100px;
 }
+
+// RESPONSIVE
+
+
+@media (max-width: 413px) {
+    .main-img{
+        height: 400px;
+    }
+
+    .main-button{
+        height: 34px;
+        width: 94px;
+        font-size: 13px;
+    }
+}

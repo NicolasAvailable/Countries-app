@@ -2,36 +2,40 @@
 
 <div class="sidenav rounded-l-lg">
 
-    <div class="title-sidenav h-24 grid content-center rounded-tl-lg text-center">
-        <h1 class="text-xl font-bold">Countries App</h1>
-    </div>
-
-    <div class="list-sidenav grid content-center justify-items-start mt-5">
-        <ul class="grid content-center w-full">
-
-            <div class="li-sidenav rounded-md" 
-                routerLink="countries/country" 
-                routerLinkActive="active">
-
-                <i class="bx bxs-flag-alt mx-3"></i>
-                <li>By country</li>
+    <div class="flex flex-row md:grid md:grid-rows-10">
+        <div class="flex-2 md:row-span-3">
+            <div class="title-sidenav h-24 grid content-center rounded-tl-lg text-center">
+                <h1 class="font-mini text-base p-2.5 sm:text-lg md:p-0 md:text-xl font-bold">Countries App</h1>
             </div>
-            <div class="li-sidenav rounded-md" 
-                routerLink="countries/capital" 
-                routerLinkActive="active">
-
-                <i class="bx bx-map-alt mx-3"></i>
-                <li>By capital</li>
+        </div>
+        <div class="flex-1 md:row-span-7">
+            <div class="list-sidenav flex justify-end mt-2.5 md:flex md:justify-center md:mt-5">
+                <ul class="list-ul-sidenav md:grid md:content-center w-full">
+                    <div class="li-sidenav rounded-md" 
+                        routerLink="countries/country" 
+                        routerLinkActive="active">
+        
+                        <i class="li-sidenav-img bx bxs-flag-alt mx-3"></i>
+                        <li>By country</li>
+                    </div>
+                    <div class="li-sidenav rounded-md" 
+                        routerLink="countries/capital" 
+                        routerLinkActive="active">
+        
+                        <i class="li-sidenav-img bx bx-map-alt mx-3"></i>
+                        <li>By capital</li>
+                    </div>
+                    <div class="li-sidenav rounded-md" 
+                        routerLink="countries/region" 
+                        routerLinkActive="active">
+        
+                        <i class="li-sidenav-img bx bxs-plane-land mx-3"></i>
+                        <li>By region</li>
+                    </div>
+        
+                </ul>
             </div>
-            <div class="li-sidenav rounded-md" 
-                routerLink="countries/region" 
-                routerLinkActive="active">
-
-                <i class="bx bxs-plane-land mx-3"></i>
-                <li>By region</li>
-            </div>
-
-        </ul>
+        </div>
     </div>
 
 </div>

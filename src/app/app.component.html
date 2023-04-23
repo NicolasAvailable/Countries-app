@@ -1,13 +1,13 @@
 
 
-<div class="grid grid-cols-10 m-2">
+<div class="dashboard-responsive grid grid-rows-10 m-2 md:grid md:grid-cols-10">
 
-    <div class="col-span-2 h-auto">
+    <div class="row-span-2 h-auto md:col-span-2">
         <app-sidenav></app-sidenav>
     </div>
 
     
-    <div class="col-span-8 h-auto">
+    <div class="row-span-8 h-auto md:col-span-8">
         <div class="grid grid-rows-12 bg-white">
             <router-outlet></router-outlet>
         </div>

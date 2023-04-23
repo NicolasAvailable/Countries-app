@@ -60,3 +60,39 @@ img{
     }
     
 }
+
+@media (max-width: 620px) {
+    .hidden{
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .table-title{
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 520px) {
+
+    .table-title{
+        width: 74px;
+    }
+    
+}
+
+@media (max-width: 448px) {
+
+    .table-title{
+        width: 60px;
+        font-size: 12px;
+    }
+
+    img{
+        height: 35px;
+        width: 52px;
+    }
+    
+}

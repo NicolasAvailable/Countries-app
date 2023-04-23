@@ -2,7 +2,7 @@
     <tr>
         <th class="table-title">Flag</th>
         <th class="table-title">Country</th>
-        <th class="table-title">Capital</th>
+        <th class="table-title hidden">Capital</th>
         <th class="table-title">Population</th>
         <th class="table-title">see more</th>
     </tr>
@@ -10,9 +10,9 @@
         <tr *ngFor="let country of countriesToShow">
             <td class="table-title"> <img [src]="country.flags.png" [alt]="country.flags.alt"> </td>
             <td class="table-title"> {{country.name.common}} </td>
-            <td class="table-title"> {{country.capital}} </td>
+            <td class="table-title hidden"> {{country.capital}} </td>
             <td class="table-title"> {{country.population}} </td>
-            <td class="table-title"> <a [routerLink]="['/countries', country.cca2]">more...</a> </td>
+            <td class="table-title font-semibold"> <a [routerLink]="['/countries', country.cca2]">more</a> </td>
         </tr>
     </tbody>
 </table>

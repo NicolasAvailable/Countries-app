@@ -7,6 +7,10 @@
     border-radius: 0px 7px 7px 0px;
 }
 
+.region-title{
+    font-size: 30px;
+}
+
 .region-box{
     width: 120px;
     font-size: 20px;
@@ -27,3 +31,53 @@
     background-color: white;
 }
 
+
+// RESPONSIVE
+
+
+@media (max-width: 667px) {
+
+    .region-title{
+        font-size: 27px;
+    }
+
+    .region-box{
+        width: 101px;
+    }
+    
+}
+
+@media (max-width: 563px) {
+
+    .region-title{
+        font-size: 25px;
+    }
+
+    .region-box{
+        width: 88px;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 517px) {
+
+    .region-box{
+        width: 88px;
+        font-size: 18px;
+    }
+    
+}
+
+
+@media (max-width: 489px) {
+
+    .region-title{
+        font-size: 21px;
+    }
+
+    .region-box{
+        width: 67px;
+        font-size: 13px;
+    }
+}
