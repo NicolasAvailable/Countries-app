@@ -1,6 +1,6 @@
 # Countries
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+This project was created with Angular and the API restCountries. In this project you could search countries by name, capital or by their region.
 
 ## Development server
 
