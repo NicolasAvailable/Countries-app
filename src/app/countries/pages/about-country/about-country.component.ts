@@ -23,9 +23,9 @@ export class AboutCountryComponent implements OnInit {
                                 switchMap( ({id}) => this.countriesServices.getCountriesByCca2(id))
                               )
                               .subscribe( country => {
-                                console.log(country);
                                 this.country = country;
                               })
+                              
   }
 
   goBack(){
