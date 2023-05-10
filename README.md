@@ -4,9 +4,11 @@ This project was created with Angular and the API restCountries. In this project
 
 ![countries img](https://i.imgur.com/zJDjbBy.jpg)
 
-## Development server
+## Quickstart
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1.Run `npm install` to create the node modules
+2.Run `ng serve` for a dev server. 
+3.Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
