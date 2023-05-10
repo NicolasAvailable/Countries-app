@@ -2,7 +2,7 @@
 
 This project was created with Angular and the API restCountries. In this project you could search countries by name, capital or by their region.
 
-[](https://i.imgur.com/zJDjbBy.jpg)
+![countries img](https://i.imgur.com/zJDjbBy.jpg)
 
 ## Development server
 
