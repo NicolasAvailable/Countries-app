@@ -1,4 +1,4 @@
-# Countries
+# Countries ✈️
 
 This project was created with Angular and the API restCountries. In this project you could search countries by name, capital or by their region.
 
